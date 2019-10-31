@@ -12,8 +12,8 @@ namespace PrimeNumbers
                 return false;
             if (number == 2)
                 return true;
-            for (var i = 2; i < number; i++)
-                if (number % i == 0)
+            for (var number2 = 2; number2 < number; number2++)
+                if (number % number2 == 0)
                     return false;
             return true;
         }
